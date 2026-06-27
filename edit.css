@@ -1,0 +1,215 @@
+    html{
+        font-size: 22px
+    }
+    body{
+        
+        font-family: 'Pacifico', cursive;
+
+
+        background: rgb(246, 188, 238);
+        color:wheat;
+        
+    
+    
+        font-size: medium;
+        font-size:25px;
+        text-align:center;
+        margin-top: 5px;
+        font-family: 'Pacifico', cursive;
+        background-image: url(img/hand-drawn-confectionery-bakery-icons-seamless-pattern-vintage-vector-illustration-food-sketches-bread-cake-131463962.webp);
+        background-size: cover;
+    }
+    .con{
+        text-align: left
+        color: #6b3e26;
+    }
+    .list{
+        text-align: left;
+    }
+    .milk{
+        text-align:center;
+    }
+    .im{
+        
+    border: 8px solid wheat;
+    width:150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    }
+    .title{
+        font-size: 5rem;
+        font-weight: bold;
+        color:wheat;
+        -webkit-text-stroke: 20px rgb(47, 3, 3);
+        paint-order: stroke fill;
+        text-align: center;
+        text-decoration: double;
+        
+        text-shadow: 2px 2px 5px rgba(0,0,0,0.15),0 0 10px rgba(255,255,255,0.7);}
+    .brand{
+        display:block;
+        align-items:center;
+        gap:15px
+    }
+   .brand p{
+    font-weight: bold;
+    font-size: 4rem;
+    margin-top: 0;
+    font-size: 20px;
+    color:#6b3e26;
+    letter-spacing: 2px;
+    margin-top: 1%;
+   }
+
+    
+    .lin{
+        color:burlywood;
+        text-align: left;
+    }
+    btn.{
+        background: #6b3e26;
+        color:white;
+        padding: 12px 25px;
+        border-radius: 30px;
+        text-decoration: none;
+        display: inline-block;
+        margin: 10px;}
+        .btn:hover{
+            transform :scale(1.05);
+        }
+    /* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+/* Header */
+header {
+  margin-bottom: 30px;
+}
+header h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+header p {
+  font-size: 1.2rem;
+  color: #e0d0b8; /* Golden accent */
+}
+
+/* Menu Section */
+.menu {
+  max-width: 600px;
+  margin: auto;
+  background: rgba(0,0,0,0.6); /* Semi-transparent box */
+  padding: 20px;
+  border-radius: 10px;
+}
+.menu h2 {
+  font-size: 2rem;
+  margin: 20px 0 10px;
+  color: #ffb6c1; /* Soft pink accent */
+}
+.menu ul {
+  list-style: none;
+}
+.menu li {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px dashed #fff;
+}
+.menu li span.price {
+  color: #c9dfc9; /* Light green for prices */
+  font-weight: bold;
+}
+
+/* Footer */
+footer {
+  margin-top: 40px;
+  font-size: 0.9rem;
+  color: #ddd;
+}
+
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+header h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+header p {
+  font-size: 1.2rem;
+  color: #f0dec1;
+}
+
+/* Contact Section */
+.contact {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background: rgba(0,0,0,0.6);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.contact .info, .contact .form {
+  flex: 1 1 300px;
+  margin: 10px;
+}
+
+.contact h2 {
+  color: #ae7880;
+  margin-bottom: 10px;
+}
+
+.contact a {
+  color: #8e7298;
+  text-decoration: none;
+}
+.contact a:hover {
+  text-decoration: underline;
+}
+
+/* Form Styling */
+form {
+  display: flex;
+  flex-direction: column;
+}
+form label {
+  margin: 10px 0 5px;
+  text-align: left;
+}
+form input, form textarea {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+form button {
+  padding: 12px;
+  background-color: #f995b1;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+form button:hover {
+  background-color: #e8acf7;
+  color: #000;
+  transition: 0.3s;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 0.9rem;
+  color: #ddd;
+}
+
